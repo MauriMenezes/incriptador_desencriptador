@@ -1,0 +1,78 @@
+header {
+   background-color: rgb(224, 226, 247);
+    padding: 20px;
+}
+.caixa {
+    position: relative;
+	width: auto;
+	margin: 0px auto;
+    
+}
+.cabeçalho {
+    position: absolute;
+	top: 10px;
+	right: 0px;
+    padding-right: 100px;
+}
+.cabeçalho h2 {
+    font-size: 30px;
+}
+
+main {
+    height: 400px;
+    background-color: rgb(245, 241, 252);
+   position: relative;
+}
+.caixaDigite {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 50%;
+
+    position: absolute;
+    
+ 
+}
+#areaDigite {
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border:3px solid rgb(146, 199, 212);
+	border-radius: 10px;
+    
+    
+}
+.caixaResultado {
+    width: 50%;
+    position: absolute;
+    margin-left: 20px;
+    top: 200px;
+}
+
+#areaResultado{
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border:3px solid rgb(130, 188, 206);
+	border-radius: 10px;
+   
+}
+.buttonCript{
+    position: absolute;
+    top: 150px;
+    left: 4px;
+    padding: 2px;
+    margin: 2px;
+   
+   
+	
+    
+}
+.buttonDescript{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    padding: 2px;
+    margin: 2px;
+}
