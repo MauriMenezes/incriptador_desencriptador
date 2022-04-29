@@ -1,78 +1,85 @@
 header {
-   background-color: rgb(224, 226, 247);
-    padding: 20px;
+    background: #b6e7f3;
+    padding: 2px;
+
+   
 }
 .caixa {
+    width: 940px;
+    height: 60px;
     position: relative;
-	width: auto;
-	margin: 0px auto;
-    
+    padding: 5px;
+    margin-right: auto;
+    margin-left: auto;
 }
-.cabeçalho {
-    position: absolute;
-	top: 10px;
-	right: 0px;
-    padding-right: 100px;
-}
-.cabeçalho h2 {
+header h1{
+    padding: 5px 0 0 10px;
+} h2 {
+   
+    font-weight: bold;
     font-size: 30px;
+    position: absolute;
+    top: 30px;
+    right: 100px;
+   
 }
+
 
 main {
+   padding: 10px;
     height: 400px;
-    background-color: rgb(245, 241, 252);
-   position: relative;
-}
-.caixaDigite {
-    margin-top: 20px;
-    margin-left: 20px;
-    width: 50%;
-
-    position: absolute;
+    background-color: rgb(232, 222, 248);
+  
     
  
+
+}
+.caixaDigite {
+
+position: relative;
+width: 400px;
+height: 200px;
+margin-left: 20px;
+
+
 }
 #areaDigite {
+   
     width: 400px;
-    height: 100px;
-    padding: 10px;
-    margin: 10px;
-    border:3px solid rgb(146, 199, 212);
-	border-radius: 10px;
+    height: 150px;
+    position: absolute;
     
     
 }
 .caixaResultado {
-    width: 50%;
-    position: absolute;
+    position: relative;
+    width: 400px;
+    height: 200px;
     margin-left: 20px;
-    top: 200px;
+  
 }
 
-#areaResultado{
-    width: 400px;
-    height: 100px;
-    padding: 10px;
-    margin: 10px;
-    border:3px solid rgb(130, 188, 206);
-	border-radius: 10px;
-   
+
+#areaResultado {
+width: 400px;
+height: 150px;
+position: absolute;
+top: 30px;
+      
 }
 .buttonCript{
+
     position: absolute;
-    top: 150px;
-    left: 4px;
-    padding: 2px;
-    margin: 2px;
+    top: 180px;
    
+
    
 	
     
 }
 .buttonDescript{
     position: absolute;
-    top: 150px;
+    top: 180px;
     left: 100px;
-    padding: 2px;
-    margin: 2px;
+   
 }
