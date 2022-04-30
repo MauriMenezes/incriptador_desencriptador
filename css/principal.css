@@ -1,8 +1,8 @@
 header {
-    background: #b6e7f3;
+    background: rgb(164, 223, 238);
     padding: 2px;
-
-   
+    
+      
 }
 .caixa {
     width: 940px;
@@ -26,60 +26,88 @@ header h1{
 
 
 main {
-   padding: 10px;
-    height: 400px;
-    background-color: rgb(232, 222, 248);
-  
-    
- 
+
+background-color: aqua;
 
 }
 .caixaDigite {
-
-position: relative;
-width: 400px;
-height: 200px;
-margin-left: 20px;
-
-
-}
-#areaDigite {
-   
-    width: 400px;
-    height: 150px;
-    position: absolute;
-    
-    
-}
-.caixaResultado {
-    position: relative;
-    width: 400px;
-    height: 200px;
-    margin-left: 20px;
+    width: 300px;
+    height: 400px;
+    vertical-align: top;
   
-}
-
-
-#areaResultado {
-width: 400px;
-height: 150px;
-position: absolute;
-top: 30px;
-      
-}
-.buttonCript{
-
-    position: absolute;
-    top: 180px;
+    display:inline-block;
+    margin: 30px;
    
+    
+
+}
+.caixaResultado{
+    width: 300px;
+    height: 400px;
+    vertical-align: top;
+
+ display: inline-block;
+
+ margin: 30px;
+ padding-bottom: 40px;
+}
+#areaDigite{
+   
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    margin: 5px;
+	box-sizing: border-box;
+    border:2px solid rgb(24, 174, 201);
+	border-radius: 10px;
 
    
-	
+}
+#areaResultado{
+  
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    margin: 5px;
+	box-sizing: border-box;
+    border:2px solid rgb(24, 174, 201);
+	border-radius: 10px;
+
     
 }
-.buttonDescript{
-    position: absolute;
-    top: 180px;
-    left: 100px;
-   
+#criptografar{
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px;
+    margin-left: 25px;
+    border:2px solid rgb(24, 174, 201);
+	border-radius: 10px;
+
 }
+#descriptografar{ 
+ font-size: 14px;
+ font-weight: bold;
+ padding: 6px;
+margin-left: 25px;
+border:2px solid rgb(24, 174, 201);
+border-radius: 10px;
+
+}
+#Copiar {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px;
+    margin-left: 230px;
+    border:2px solid rgb(24, 174, 201);
+	border-radius: 10px;
+}
+footer{
+    background-color: rgb(164, 223, 238);
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+p {
+    color: aliceblue;
+}
+    
