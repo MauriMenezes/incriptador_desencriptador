@@ -5,7 +5,7 @@
         <title>Incriptador </title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/principal.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     
     </head>
     
     <body>
@@ -18,15 +18,19 @@
         <main>
             <div class="caixaDigite">
                 <textarea id="areaDigite" placeholder="codificador / decodificador" style="resize: none"></textarea>
-                <input  class="buttonCript" type="button" value="Criptografar">
-                <input class="buttonDescript" type="button" value="desencripitar">
+                <input id="criptografar" type="button" value="Criptografar">
+                <input id="descriptografar" type="button" value="desencripitar">
             </div>
             <div class="caixaResultado">
              <textarea id="areaResultado" placeholder="Seu Resultado"style="resize: none" readonly></textarea>
-         
+             <input id="Copiar" type="button" value="copiar">
             </div>
-   
+           
         </main>
+        <footer>
+			
+			<p> &copy; Copyright Decodificador Alura<br></p>
+		</footer>
     </body>
 
 </html>
