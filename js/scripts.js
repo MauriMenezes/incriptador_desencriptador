@@ -1,4 +1,3 @@
-console.log("fui carregado de um arquivo externo!")
 
 var textarea = document.querySelector(".areadigite")
 
