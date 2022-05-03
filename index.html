@@ -2,10 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Incriptador </title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/principal.css">
-        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
         <script src="js/scripts.js" defer></script>     
     </head>
     
@@ -14,20 +15,32 @@
             <div class ="caixa">
                 <h1><img src="imagens/logo-alura.svg" </h1>
                 <h2>decodifique suas mensagens</h2>
+                
             </div>
         </header>
         <main>
             <section class="principal">
                 
                 <div class="caixaDigite">
-                    <textarea class="areadigite" placeholder="codificador / decodificador" style="resize: none"></textarea>
+                    
+                    <textarea class="areadigite" placeholder="Digite seu texto" style="resize: none"></textarea>
                     <input class="input" type="button" value="Criptografar" id="criptografar">
                     <input class="input" type="button" value="desencripitar" id="Descriptografar" >
                 </div>
                 <div class="caixaResultado">
-                <textarea class="arearesultado" placeholder="Seu Resultado"style="resize: none" readonly></textarea>
+                <img  class="imgresultado" src="imagens/imgresultado.png">
+                <textarea class="arearesultado" placeholder="Nenhuma mensagem encontrada!...Ainda"style="resize: none" readonly></textarea>
+                
                 <input class="input" type="button" value="copiar">
                 </div>
+                <div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                
             </section>
         </main>
         <footer>
