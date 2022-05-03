@@ -29,7 +29,8 @@ header h1{
 
 
 main {
-    background: linear-gradient(aquamarine 25%,rgb(164, 223, 238) )
+    background: linear-gradient(aquamarine 25%,rgb(164, 223, 238) );
+    width: auto;
 }
 .principal{
     width: 940px;
@@ -47,7 +48,7 @@ main {
     height: 300px;
     width: 400px;
     border: 2px solid aquamarine;
-	border-radius: 40px;
+	border-radius: 30px;
     box-shadow: 5px 5px 5px black;
     font-size: 30px;
     font-weight: bold;
@@ -61,15 +62,18 @@ main {
     width:49%;
     display: inline-block;
     vertical-align: top;
-    margin-left: 20px ;
+    
 }
 .arearesultado{
     height: 400px;
     width: 400px;
     border: 2px solid aquamarine;
-    border-radius: 20px;
+    border-radius: 10px;
     box-shadow: 5px 5px 5px black;
     background: linear-gradient(aquamarine,rgb(164, 223, 238));
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
 }
 .arearesultado::placeholder{
     color:rgb(13, 13, 141);
@@ -80,18 +84,16 @@ main {
    position: absolute;
 }
 .input{
-    width: 100px;
-    height: 32px;
     margin-top: 8px;
     font-weight: bold;
-    padding: 6px;
-    background:#1d64bb;
+    padding: 4px;
+    background: rgb(12, 57, 139);
     border: 2px solid rgb(84, 141, 206);
-	border-radius: 10px;
+	border-radius: 13px;
     box-shadow: 5px 5px 5px black;
-    color: blanchedalmond;
-    cursor: pointer;
-    
+    padding: 5px;
+    color: azure;
+
 
 }
 footer{
@@ -102,11 +104,13 @@ footer{
 }
 footer p {
     color: rgb(4, 21, 24);
-    margin-bottom: 5px;
 }
-@media screen and (max-width:982px){
+@media screen and (max-width:1000px){
     .caixa, .principal{
         width: auto;
+    }
+    h2{
+        position: static;
     }
     .caixaResultado{
         display: block;
