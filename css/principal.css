@@ -93,7 +93,8 @@ footer {
   padding-bottom: 5px;
 }
 footer p {
-  color: rgb(4, 21, 24);
+  color: rgb(12, 57, 139);
+  font-weight: bold;
 }
 @media screen and (max-width: 1000px) {
   .caixa,
